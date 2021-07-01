@@ -1,0 +1,28 @@
+.head-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.head-image{
+    width:40%;
+    transition:max-width 1s, min-width 1s;
+}
+.head-text{
+    font-family: 'Dancing Script', cursive;
+    margin: 5px 0 15px 0;
+    color: white;
+    font-size: 50px;
+}
+
+.head-image-extended{
+    max-width: 40%;
+    min-width: 35%;
+
+}
+
+.head-image-contracted{
+    max-width: 25%;
+    min-width: 23%;
+}
